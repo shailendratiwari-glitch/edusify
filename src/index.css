@@ -48,3 +48,60 @@ margin-left: 10px;}
     padding: 14px 22px;
   }
 }
+/* --- Mobile Responsive Fixes --- */
+
+/* For Tablets and smaller (Max width 992px) */
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+        padding: 0 15px;
+    }
+}
+
+/* For Phones (Max width 768px) */
+@media (max-width: 768px) {
+    /* 1. Stack Flexbox/Grid columns vertically */
+    .navbar, .header, .row, .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* 2. Adjust navigation menu */
+    nav ul {
+        display: none; /* Hide standard menu - usually replaced by a burger menu */
+    }
+
+    /* 3. Adjust Font Sizes */
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    /* 4. Force images to stay within screen */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 5. Adjust buttons for touch */
+    .btn, button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+
+    /* 6. Fix specific sections (adjust class names based on your project) */
+    .feature-card, .course-card {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+}
+
+/* For Small Phones (Max width 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
