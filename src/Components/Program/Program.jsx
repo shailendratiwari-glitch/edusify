@@ -2,9 +2,9 @@ import React from 'react'
 import './Program.css'
 
 // IMPORTANT: Ensure these filenames match the EXACT casing in your folder
-import programImg from '../../assets/Program-1.png'
-import Program2 from '../../assets/Program-2.png'
-import Program3 from '../../assets/Program-3.png'
+import programImg from '../../assets/program-1.png'
+import Program2 from '../../assets/program-2.png'
+import Program3 from '../../assets/program-3.png'
 import Programicon1 from '../../assets/program-icon-1.png'
 import Programicon2 from '../../assets/program-icon-2.png'
 import Programicon3 from '../../assets/program-icon-3.png'
