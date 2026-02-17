@@ -1,0 +1,47 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+
+    width: 23%;
+border-radius: 10px;
+
+
+}
+.dark-btn{
+    width: 150px;
+    margin-left: 10px;
+}
+@media(max-width:800px){
+    .gallery{
+        flex-wrap: wrap;
+
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:600px){
+    .user-info{
+        display: block;
+        margin-bottom: 10px;
+font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p {
+font-size: 12px;
+    }
+}
